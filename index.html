@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="google-signin-client_id" content="1004553692658-5t5f2fmnmgqtokt2hre4h0c4lshvohlg.apps.googleusercontent.com">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>ToDo List</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li id="g-signout"><a onclick="disconnect()">Sign out</a></li>
+        <li id="g-signin"><a>Sign in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://apis.google.com/js/platform.js?onload=start" async defer></script>
+</body>
+
+</html>

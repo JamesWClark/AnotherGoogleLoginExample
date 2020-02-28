@@ -1,0 +1,8 @@
+#g-signout {
+  display: none;
+  cursor: pointer;
+}
+
+#g-signin {
+    cursor: pointer;
+}
